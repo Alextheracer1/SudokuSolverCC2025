@@ -30,8 +30,7 @@ public class Solver implements Runnable{
     Gson gson = new Gson();
     String apiGetSudokus = "https://193.170.119.74/hashsudokus";
     String apiValidate = "https://193.170.119.74/validate-sudokus-hash";
-    String jwtToken = "67b71073d3b60cde98e8dba2___eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNraWxsaXNzdWVAZmgtc2FsemJ1cmcuYWMuYXQiLCJpYXQiOjE3NDAwNTA2MzUsImV4cCI6MTc0MDQ4MjYzNX0.CY334eFnuFoRmynXT6w9LI670TPJ6ne_eiQyMdTqWF0";
-
+    String jwtToken = "";
     List<Sudoku> sudokuList;
 
     while (true) {
